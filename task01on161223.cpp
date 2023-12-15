@@ -3,8 +3,11 @@ using namespace std;
 
 int main()
 {
-	const int r = 3;
-	const int c = 4;
+	int r,c;
+	cout << "r = ";
+	cin >> r;
+	cout << "c = ";
+	cin >> c
 	int arr[r][c] = {};
 	for (int rn = 0; rn < r; rn++)
 	{
